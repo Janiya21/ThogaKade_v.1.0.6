@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="278.0" prefWidth="318.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.CustomerSearchFormController">
+   <children>
+      <Label alignment="CENTER" layoutX="14.0" layoutY="14.0" prefHeight="28.0" prefWidth="290.0" text="Customer Search Form">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </Label>
+      <Separator layoutX="59.0" layoutY="42.0" prefWidth="200.0" />
+      <TextField fx:id="txtCustomerId" layoutX="14.0" layoutY="64.0" prefHeight="25.0" prefWidth="290.0" promptText="Customer Id" />
+      <TextField fx:id="txtCustomerName" layoutX="14.0" layoutY="100.0" prefHeight="25.0" prefWidth="290.0" promptText="Customer Name" />
+      <TextField fx:id="txtCustomerAddress" layoutX="14.0" layoutY="138.0" prefHeight="25.0" prefWidth="290.0" promptText="Customer Address" />
+      <TextField fx:id="txtCustomerSalary" layoutX="14.0" layoutY="175.0" prefHeight="25.0" prefWidth="290.0" promptText="Customer Salary" />
+      <Button layoutX="14.0" layoutY="210.0" mnemonicParsing="false" onAction="#btnSearchButtonOnAction" prefHeight="28.0" prefWidth="290.0" text="Search Customer" />
+   </children>
+</AnchorPane>
